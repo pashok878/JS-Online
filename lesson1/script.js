@@ -16,11 +16,41 @@ for (var i = 0; i < strLength; ++i) {
 	}
 }
 
+result = openBracket == closeBracket
+
 alert(result)
 
 
 
-// Задача 2
+// Задача 2 - В процессе 
+/*
+var x = input("Input point's 'x' value:")
+var n = input("Input accuracity 'n':")
+
+
+
+function input(str) {
+	var num = 0
+	var correct = true
+
+	do {
+		num = Number(prompt("str"))
+		console.log(num)
+		correct = !Number.isNaN(num)
+
+		if (!correct) {
+			alert("It's not a number, try again.")
+		}
+	} while (!correct)
+
+	return num
+}
+
+*/
+
+
+
+// Задача 3
 
 var num1 = inputNumber()
 var sym =  inputSymbol()
