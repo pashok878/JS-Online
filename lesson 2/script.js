@@ -1,6 +1,6 @@
 // Задача 1(2)
 
-svar str1 = inputString("Input string:")
+var str1 = inputString("Input string:")
 var str2 = inputString("Input string:")
 
 isAnagrams(str1, str2)
