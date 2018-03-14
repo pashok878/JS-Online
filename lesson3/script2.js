@@ -8,15 +8,16 @@ people.forEach(function(elem) {
 
 function generatePeople() {
 	var objects = Array()
+
+	var say = function() {
+			var greeting = String("Hey, my name is " + this.name + ". I'm " + this.age + " years old.")
+			console.log(greeting)
+		}
+		
 	for (var i = 0; i < 100; i++) {
 		var human = {
 			name: randomName()
 			,age: randomAge()
-		}
-
-		var say = function() {
-			var greeting = String("Hey, my name is " + this.name + ". I'm " + this.age + " years old.")
-			console.log(greeting)
 		}
 
 		human.sayHi = say
