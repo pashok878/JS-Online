@@ -19,7 +19,6 @@ function textAndCommentNodes(node){
 	    } else if (node.nodeType == 8) {
 	    	comments++
 	    } else {
-	    	//textAndCommNodes = textAndCommNodes.concat(textAndCommentNodes(node));
 	    	textAndCommentNodes(node)
 	    } 
 	  }
